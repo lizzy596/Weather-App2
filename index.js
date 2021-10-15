@@ -34,7 +34,7 @@ function updateUI(input) {
   const cardWrapper = document.getElementById('card-wrapper');
   cardWrapper.classList.remove('hidden');
   const dayImg = document.getElementById('dayTime');
-  const source = (input.IsDayTime) ? 'day.svg' : 'night.svg'
+  const source = (input.IsDayTime) ? 'day.jpg' : 'night.jpg'
     dayImg.src = `${source}`;
   
 

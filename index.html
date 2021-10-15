@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Weather App</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Weather Fetcher</title>
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 
   <div class="card">
     <form>
-      <input type="text" id="city" class="city" placeholder="enter city">
+      <input type="text" id="city" class="city" placeholder="enter a major city">
       <input type="submit" id="submit" class="submit" value="Submit">
     </form>
 
@@ -25,13 +26,13 @@
   <div id="card-wrapper" class="hidden">
   <div id="weather-card" class="weather-card">
       <div id="img-div">
-        <img src="#" height="350px" id="dayTime" alt="">
+        <img src="#" height="250px" id="dayTime" alt="">
       </div>
       <img src="#" class="icon" id ="icon" alt="icon">
       <div id="text-box" class="text-box">
-        <h2 id="city-name" class="city-name"></h2>
-        <h3 id="weather-desc"></h3>
-        <h1 id="city-temp"></h1>
+        <h3 id="city-name" class="city-name"></h3>
+        <h4 id="weather-desc"></h4>
+        <h2 id="city-temp"></h2>
       </div>
   </div>
 
@@ -40,6 +41,7 @@
 
 
  </div>
+
 
 
 
